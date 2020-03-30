@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>File Upload Golang</title>
+  </head>
+  <body>
+    <form
+      enctype="multipart/form-data"
+      action="http://localhost:8080/upload"
+      method="post"
+    >
+    <label>CSV files:
+      <input type="file" name="file_name" accept=".csv" multiple>
+    </form>
+    <input type="submit" value="upload" />
+  </body>
+</html>
